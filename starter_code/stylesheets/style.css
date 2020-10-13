@@ -14,15 +14,58 @@ body{
 /* ----- NavBar ----- */
 
 .navBar{
+    position: fixed;
     display: flex;
-    flex-flow: column wrap;
-    border: 1px solid black;
+    border-bottom: 1px solid #5b5e6d;
+    color: #5b5e6d;
+    width:100%;
+    background-color: white;
+    top:0;
 }
 
 .navBar img{
-    width:200px;
+    width:160px;
+    margin-left: 60px;
 }
 
 .navBar ul{
     display: none;
 }
+
+.cruz{
+    display: none;
+}
+
+.menuD{
+    font-size: 39px;
+    position:fixed;
+    left:90%;
+    top:2.5%;
+}
+
+/* ----- Header ----- */
+
+.header{
+    display: flex;
+    flex-flow: column wrap;
+    float: left;
+    margin-top: 66px;
+    width:100%;
+}
+
+.header h1{
+    width:50%;
+    margin-left: 9%;
+    font-size: 50px;
+}
+
+.header p{
+    width:300px;
+    margin-left: 9%;
+}
+
+
+/* ----- Main ----- */
+ .divMain img{
+    width:200px;
+ }
