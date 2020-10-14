@@ -50,7 +50,8 @@ body{
     flex-flow: column wrap;
     float: left;
     margin-top: 66px;
-    width:100%;
+    width:70%;
+    margin: 66px 20% 0 13%;
 }
 
 .header h1{
@@ -63,6 +64,18 @@ body{
     width:300px;
     margin-left: 9%;
 }
+
+.mailHeader{
+    width:60%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    height: 30px;
+    padding-left: 10px;
+}
+
 
 
 /* ----- Main ----- */
