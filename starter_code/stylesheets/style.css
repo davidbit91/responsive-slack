@@ -6,104 +6,195 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
-body{
-    margin:0;
-    padding:0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /* ----- NavBar ----- */
 
-.navBar{
-    position: fixed;
-    display: flex;
-    border-bottom: 1px solid #5b5e6d;
-    color: #5b5e6d;
-    width:100%;
-    background-color: white;
-    top:0;
+.navBar {
+  position: fixed;
+  display: flex;
+  border-bottom: 1px solid #5b5e6d;
+  color: #5b5e6d;
+  width: 100%;
+  background-color: white;
+  top: 0;
 }
 
-.navBar img{
-    width:160px;
-    margin-left: 60px;
+.navBar img {
+  width: 160px;
+  margin-left: 60px;
 }
 
-.navBar ul{
-    display: none;
+.navBar ul {
+  display: none;
 }
 
-.cruz{
-    display: none;
+.cruz {
+  display: none;
 }
 
-.menuD{
-    font-size: 39px;
-    position:fixed;
-    left:90%;
-    top:2.5%;
+.menuD {
+  font-size: 39px;
+  position: fixed;
+  left: 90%;
+  top: 2.5%;
 }
 
 /* ----- Header ----- */
 
-.header{
-    display: flex;
-    flex-flow: column wrap;
-    float: left;
-    margin-top: 66px;
-    width:70%;
-    margin: 66px 20% 0 13%;
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  float: left;
+  margin-top: 66px;
+  width: 70%;
+  margin: 66px 20% 0 13%;
 }
 
-.header h1{
-    width:50%;
-    margin-left: 9%;
-    font-size: 50px;
+.header h1 {
+  width: 50%;
+  margin-left: 9%;
+  font-size: 50px;
 }
 
-.header p{
-    width:300px;
-    margin-left: 9%;
+.header p {
+  width: 300px;
+  margin-left: 9%;
 }
 
-.mailHeader{
-    width:60%;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    height: 30px;
-    padding-left: 10px;
+.mailHeader {
+  width: 60%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  height: 30px;
+  padding-left: 10px;
 }
 
 .header button {
-    width:63%;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    height: 30px;
-    padding-left: 10px;
-    background-color:#192592;
-    color: white;
-    margin-top: 15px;
+  width: 63%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  height: 30px;
+  padding-left: 10px;
+  background-color: #192592;
+  color: white;
+  margin-top: 15px;
 }
 
-.header img{
-    width:100%;
-    margin-left: -10%;
+.header img {
+  width: 100%;
+  margin-left: -10%;
 }
 
+/* ----- Main 1 ----- */
+.divMain {
+  width: 100%;
+  background-color: #f4f3f4;
+  float: left;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
 
-/* ----- Main ----- */
- .divMain{
-    width:100%;
-    background-color:#F4F3F4;
-    float:left;
-    
- }
+.divMain h2 {
+  text-align: center;
+}
 
- .divMain img{
-     width:100px;
- }
+.divMain p {
+  width: 248px;
+}
+.imgList {
+  margin-left: -30px;
+  list-style-type: none;
+}
+.imgList li {
+  border-bottom: 2px solid black;
+  margin: 20px 25px 25px 20px;
+}
+.imgList img {
+  width: 200px;
+}
+
+/* ----- Main 2 ----- */
+
+.divMain2 {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.divMain2 p:nth-child(2n) {
+  margin-top: -10px;
+}
+
+.mailMain2 {
+  width: 40%;
+  border-radius: 4px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.divMain2 button {
+  width: 42%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  height: 30px;
+  padding-left: 10px;
+  background-color: #192592;
+  color: white;
+  margin-top: 15px;
+}
+
+/* ----- Footer ----- */
+
+.divFooter {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.imgD {
+  width: 100%;
+}
+
+.imgD img {
+  width: 200px;
+}
+
+.divFooter ul {
+  float: left;
+  list-style: none;
+  width: 30%;
+  margin-left: 2%;
+}
+
+/* ----- Footer 2 ----- */
+
+.divFooter2{
+    width:100%;    
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #f4f3f4;
+}
+
+.divFooter2 ul{
+    list-style: none;
+}
+
+.divFooter2 ul>li{
+    display:inline;
+    text-align: center;
+}
