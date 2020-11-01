@@ -222,3 +222,54 @@ body {
 }
 
 
+@media (min-width: 768px) and (max-width:961px){
+        .header{
+          width:100%;
+          margin: 86px 5px 25px 0;
+        }
+    
+      .header h1{
+        width:100%;
+        margin-left: 15px;
+      }
+      .header p{
+        width:60%;
+        margin-left: 15px;
+        padding-right: 30px;
+      }
+      .header img{
+        width:50%;
+        margin-left: 23%;
+      }
+      .mailHeader{
+        margin-left: 15px;
+        width:273px;
+      }
+
+      .header button{
+        width:159px;
+        float:left;
+        margin-top: -35px;
+        margin-left: 320px;
+        height:35px;
+      }
+
+      .divMain p{
+        width:70%;
+        text-align: center;
+        margin-left: 120px;
+      }
+
+      .divMain button{
+        width:150px;
+        margin-left: 320px;
+      }
+
+      .imgList li{
+        margin-left: 5%;
+        width:300px;
+        float:left;
+
+      }
+
+}
