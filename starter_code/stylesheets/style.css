@@ -326,9 +326,31 @@ body {
         text-align: right;
       }
 }
+
 @media (min-width: 958px) and (max-width:1024px){
   .imgList li{
     width:200px;
+  }
+}
+
+@media (min-width: 1024px){
+  .navBar{
+    justify-content: space-between;
+  }
+
+  .navBar ul{
+    display:inline;
+    list-style: none;
+    margin-right: 3%;
+    margin-top: 2%;
+  }
+
+  .navBar li{
+    display:inline;
+  }
+  
+  .menuD{
+    display:none;
   }
 }
 
