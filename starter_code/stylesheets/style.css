@@ -325,5 +325,10 @@ body {
        transform:translateY(-50px);
         text-align: right;
       }
-
 }
+@media (min-width: 958px) and (max-width:1024px){
+  .imgList li{
+    width:200px;
+  }
+}
+
