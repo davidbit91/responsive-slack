@@ -87,6 +87,7 @@ body {
   height: 30px;
   padding-left: 10px;
   margin-left: 9%;
+  border: 1px solid  #EBEBEB;
   
 }
 
@@ -126,8 +127,10 @@ body {
 }
 
 .divMain p {
-  width: 248px;
+  width: 450px;
   color:#5b5e6d;
+  align-self: center;
+  font-size: 24px;
 }
 .divMain button{
     border-radius: 4px;
@@ -137,6 +140,7 @@ body {
     border-color: #192592;
     height: 40px;
     width:60%;
+    align-self: center;
 }
 .imgList {
   margin-left: -30px;
@@ -162,6 +166,7 @@ body {
   width: 100%;
   align-items: center;
   border-bottom: 1px solid #EBEBEB;
+  height: 210px;
   
 }
 .divMain2 span{
@@ -191,6 +196,7 @@ body {
   background-color: #192592;
   color: white;
   margin-top: 15px;
+  height: 42px;
 }
 
 /* ----- Footer ----- */
@@ -267,7 +273,7 @@ body {
       }
       .header img{
         width:50%;
-        margin-left: 23%;
+        margin-left: 1%;
       }
       .mailHeader{
         margin-left: 15px;
@@ -276,27 +282,30 @@ body {
 
       .header button{
         width:159px;
-        float:left;
-        margin-top: -35px;
-        margin-left: 320px;
+        margin-left: 10px;
         height:35px;
       }
 
       .divMain p{
         width:70%;
         text-align: center;
-        margin-left: 120px;
+        margin-left: 1px;
       }
 
       .divMain button{
         width:150px;
-        margin-left: 320px;
+        margin-left: 1px;
+      }
+
+      .imgList{
+        flex-direction: row;
+        flex-wrap: wrap;
       }
 
       .imgList li{
         margin-left: 5%;
         width:300px;
-        float:left;
+        float:left;        
       }
 
       .divMain2{
@@ -356,12 +365,115 @@ body {
 }
 
 @media (min-width: 958px) and (max-width:1024px){
-  .imgList li{
-    width:200px;
+  .header{
+    width:100%;
+    margin: 86px 5px 25px 0;
   }
+
+.header h1{
+  width:100%;
+  margin-left: 15px;
+}
+.header p{
+  width:60%;
+  margin-left: 15px;
+  padding-right: 30px;
+}
+.header img{
+  width:50%;
+  margin-left: 1%;
+}
+.mailHeader{
+  margin-left: 15px;
+  width:273px;
 }
 
-@media (min-width: 1024px){
+.header button{
+  width:159px;
+  margin-left: 10px;
+  height:35px;
+}
+
+.divMain p{
+  width:70%;
+  text-align: center;
+  margin-left: 1px;
+}
+
+.divMain button{
+  width:150px;
+  margin-left: 1px;
+}
+
+.imgList{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.imgList li{
+  margin-left: 5%;
+  width:200px;
+  float:left;        
+}
+
+.divMain2{
+  flex-flow: row nowrap;
+
+}
+
+.divMain2 p{
+  margin-top: 10px;
+  width:45%;
+  margin-left: calc(5% - 1%);
+}
+
+
+.divMain2 p:nth-child(2){
+  float: left;
+  margin-top:50px;
+  margin-left: calc(-480px + 84px);
+}
+
+.divMain2 input{
+  width:140px;       
+}
+
+.divMain2 button{
+  width:140px;
+  height: 36px;
+  margin-top: -2px;
+  margin-left: 5px;        
+}
+
+.imgD{
+  width:10%;
+}
+
+.imgD img{
+  width:100px;
+}
+
+.divFooter2{
+  float: left;
+}
+
+.divFooter ul{
+  width:13%;
+}
+
+.divFooter2 ul{
+  width:40%;
+}
+
+.RRSS{
+ width:99%;
+ transform:translateY(-50px);
+  text-align: right;
+}
+  
+}
+
+@media (min-width: 1023px){
   .navBar{
     justify-content: space-between;
   }
@@ -391,7 +503,8 @@ body {
   }
   .header p{
     width:400px;
-    line-height: 24px;    
+    line-height: 24px;
+    
   }
   .header div{
     margin-top: 100px;
@@ -434,10 +547,11 @@ body {
   .imgList{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;    
+    justify-content: center; 
+    flex-direction: row;   
   }
   .imgList li{
-    width:30%;   
+    width:28%;   
     display: flex;
     justify-content: center;
     
@@ -471,7 +585,7 @@ body {
   }
 
   .divFooter ul{
-    width:12%;
+    width:11%;
   }
 
   .divFooter ul>li{
